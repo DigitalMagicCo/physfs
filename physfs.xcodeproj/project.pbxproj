@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		848E688C221E3CD500C83A75 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848E688B221E3CD500C83A75 /* SDL2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		848E683C221E2D6400C83A75 /* physfs_platform_posix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = physfs_platform_posix.c; path = src/physfs_platform_posix.c; sourceTree = "<group>"; };
+		848E683D221E2D6400C83A75 /* physfs_byteorder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = physfs_byteorder.c; path = src/physfs_byteorder.c; sourceTree = "<group>"; };
+		848E683E221E2D6400C83A75 /* physfs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = physfs.c; path = src/physfs.c; sourceTree = "<group>"; };
+		848E683F221E2D6400C83A75 /* physfs_archiver_qpak.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = physfs_archiver_qpak.c; path = src/physfs_archiver_qpak.c; sourceTree = "<group>"; };
+		848E6840221E2D6400C83A75 /* physfs_miniz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = physfs_miniz.h; path = src/physfs_miniz.h; sourceTree = "<group>"; };
+		848E6841221E2D6400C83A75 /* physfs_archiver_wad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = physfs_archiver_wad.c; path = src/physfs_archiver_wad.c; sourceTree = "<group>"; };
+		848E6842221E2D6400C83A75 /* physfs_platform_apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = physfs_platform_apple.m; path = src/physfs_platform_apple.m; sourceTree = "<group>"; };
+		848E6843221E2D6400C83A75 /* physfs_platform_windows.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = physfs_platform_windows.c; path = src/physfs_platform_windows.c; sourceTree = "<group>"; };
+		848E6844221E2D6400C83A75 /* physfs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = physfs.h; path = src/physfs.h; sourceTree = "<group>"; };
+		848E6845221E2D6400C83A75 /* physfs_platform_qnx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = physfs_platform_qnx.c; path = src/physfs_platform_qnx.c; sourceTree = "<group>"; };
+		848E6846221E2D6400C83A75 /* physfs_archiver_zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = physfs_archiver_zip.c; path = src/physfs_archiver_zip.c; sourceTree = "<group>"; };
+		848E6847221E2D6400C83A75 /* physfs_archiver_unpacked.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = physfs_archiver_unpacked.c; path = src/physfs_archiver_unpacked.c; sourceTree = "<group>"; };
+		848E6848221E2D6500C83A75 /* physfs_platforms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = physfs_platforms.h; path = src/physfs_platforms.h; sourceTree = "<group>"; };
+		848E6849221E2D6500C83A75 /* physfs_lzmasdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = physfs_lzmasdk.h; path = src/physfs_lzmasdk.h; sourceTree = "<group>"; };
+		848E684A221E2D6500C83A75 /* physfs_unicode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = physfs_unicode.c; path = src/physfs_unicode.c; sourceTree = "<group>"; };
+		848E684B221E2D6500C83A75 /* physfs_archiver_7z.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = physfs_archiver_7z.c; path = src/physfs_archiver_7z.c; sourceTree = "<group>"; };
+		848E684C221E2D6500C83A75 /* physfs_archiver_slb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = physfs_archiver_slb.c; path = src/physfs_archiver_slb.c; sourceTree = "<group>"; };
+		848E684D221E2D6500C83A75 /* physfs_platform_os2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = physfs_platform_os2.c; path = src/physfs_platform_os2.c; sourceTree = "<group>"; };
+		848E684E221E2D6500C83A75 /* physfs_casefolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = physfs_casefolding.h; path = src/physfs_casefolding.h; sourceTree = "<group>"; };
+		848E684F221E2D6500C83A75 /* physfs_archiver_iso9660.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = physfs_archiver_iso9660.c; path = src/physfs_archiver_iso9660.c; sourceTree = "<group>"; };
+		848E6850221E2D6500C83A75 /* physfs_platform_unix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = physfs_platform_unix.c; path = src/physfs_platform_unix.c; sourceTree = "<group>"; };
+		848E6851221E2D6500C83A75 /* physfs_archiver_vdf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = physfs_archiver_vdf.c; path = src/physfs_archiver_vdf.c; sourceTree = "<group>"; };
+		848E6852221E2D6500C83A75 /* physfs_archiver_dir.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = physfs_archiver_dir.c; path = src/physfs_archiver_dir.c; sourceTree = "<group>"; };
+		848E6853221E2D6500C83A75 /* physfs_archiver_mvl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = physfs_archiver_mvl.c; path = src/physfs_archiver_mvl.c; sourceTree = "<group>"; };
+		848E6854221E2D6500C83A75 /* physfs_archiver_hog.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = physfs_archiver_hog.c; path = src/physfs_archiver_hog.c; sourceTree = "<group>"; };
+		848E6855221E2D6500C83A75 /* physfs_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = physfs_internal.h; path = src/physfs_internal.h; sourceTree = "<group>"; };
+		848E6856221E2D6500C83A75 /* physfs_platform_winrt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = physfs_platform_winrt.cpp; path = src/physfs_platform_winrt.cpp; sourceTree = "<group>"; };
+		848E6857221E2D6500C83A75 /* physfs_archiver_grp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = physfs_archiver_grp.c; path = src/physfs_archiver_grp.c; sourceTree = "<group>"; };
+		848E6858221E2D6500C83A75 /* physfs_platform_haiku.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = physfs_platform_haiku.cpp; path = src/physfs_platform_haiku.cpp; sourceTree = "<group>"; };
+		848E6876221E2DB200C83A75 /* physfsrwops.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = physfsrwops.h; path = extras/physfsrwops.h; sourceTree = "<group>"; };
+		848E6877221E2DB200C83A75 /* physfsrwops.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = physfsrwops.c; path = extras/physfsrwops.c; sourceTree = "<group>"; };
+		848E6886221E3CC200C83A75 /* libphysfs.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libphysfs.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		848E688B221E3CD500C83A75 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		848E6884221E3CC200C83A75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848E688C221E3CD500C83A75 /* SDL2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		848E681D221E2B9200C83A75 = {
+			isa = PBXGroup;
+			children = (
+				848E6877221E2DB200C83A75 /* physfsrwops.c */,
+				848E6876221E2DB200C83A75 /* physfsrwops.h */,
+				848E684B221E2D6500C83A75 /* physfs_archiver_7z.c */,
+				848E6852221E2D6500C83A75 /* physfs_archiver_dir.c */,
+				848E6857221E2D6500C83A75 /* physfs_archiver_grp.c */,
+				848E6854221E2D6500C83A75 /* physfs_archiver_hog.c */,
+				848E684F221E2D6500C83A75 /* physfs_archiver_iso9660.c */,
+				848E6853221E2D6500C83A75 /* physfs_archiver_mvl.c */,
+				848E683F221E2D6400C83A75 /* physfs_archiver_qpak.c */,
+				848E684C221E2D6500C83A75 /* physfs_archiver_slb.c */,
+				848E6847221E2D6400C83A75 /* physfs_archiver_unpacked.c */,
+				848E6851221E2D6500C83A75 /* physfs_archiver_vdf.c */,
+				848E6841221E2D6400C83A75 /* physfs_archiver_wad.c */,
+				848E6846221E2D6400C83A75 /* physfs_archiver_zip.c */,
+				848E683D221E2D6400C83A75 /* physfs_byteorder.c */,
+				848E684E221E2D6500C83A75 /* physfs_casefolding.h */,
+				848E6855221E2D6500C83A75 /* physfs_internal.h */,
+				848E6849221E2D6500C83A75 /* physfs_lzmasdk.h */,
+				848E6840221E2D6400C83A75 /* physfs_miniz.h */,
+				848E6842221E2D6400C83A75 /* physfs_platform_apple.m */,
+				848E6858221E2D6500C83A75 /* physfs_platform_haiku.cpp */,
+				848E684D221E2D6500C83A75 /* physfs_platform_os2.c */,
+				848E683C221E2D6400C83A75 /* physfs_platform_posix.c */,
+				848E6845221E2D6400C83A75 /* physfs_platform_qnx.c */,
+				848E6850221E2D6500C83A75 /* physfs_platform_unix.c */,
+				848E6843221E2D6400C83A75 /* physfs_platform_windows.c */,
+				848E6856221E2D6500C83A75 /* physfs_platform_winrt.cpp */,
+				848E6848221E2D6500C83A75 /* physfs_platforms.h */,
+				848E684A221E2D6500C83A75 /* physfs_unicode.c */,
+				848E683E221E2D6400C83A75 /* physfs.c */,
+				848E6844221E2D6400C83A75 /* physfs.h */,
+				848E6827221E2B9200C83A75 /* Products */,
+				848E688A221E3CD500C83A75 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		848E6827221E2B9200C83A75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848E6886221E3CC200C83A75 /* libphysfs.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		848E688A221E3CD500C83A75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				848E688B221E3CD500C83A75 /* SDL2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		848E6882221E3CC200C83A75 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		848E6885221E3CC200C83A75 /* physfs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848E6887221E3CC200C83A75 /* Build configuration list for PBXNativeTarget "physfs" */;
+			buildPhases = (
+				848E6882221E3CC200C83A75 /* Headers */,
+				848E6883221E3CC200C83A75 /* Sources */,
+				848E6884221E3CC200C83A75 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = physfs;
+			productName = physfs;
+			productReference = 848E6886221E3CC200C83A75 /* libphysfs.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		848E681E221E2B9200C83A75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = DigitalMagic;
+				TargetAttributes = {
+					848E6885221E3CC200C83A75 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 848E6821221E2B9200C83A75 /* Build configuration list for PBXProject "physfs" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 848E681D221E2B9200C83A75;
+			productRefGroup = 848E6827221E2B9200C83A75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848E6885221E3CC200C83A75 /* physfs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		848E6883221E3CC200C83A75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		848E6828221E2B9200C83A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		848E6829221E2B9200C83A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		848E6888221E3CC200C83A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46X82KAJHC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		848E6889221E3CC200C83A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46X82KAJHC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		848E6821221E2B9200C83A75 /* Build configuration list for PBXProject "physfs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848E6828221E2B9200C83A75 /* Debug */,
+				848E6829221E2B9200C83A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848E6887221E3CC200C83A75 /* Build configuration list for PBXNativeTarget "physfs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848E6888221E3CC200C83A75 /* Debug */,
+				848E6889221E3CC200C83A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 848E681E221E2B9200C83A75 /* Project object */;
+}
