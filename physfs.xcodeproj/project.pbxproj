@@ -38,6 +38,7 @@
 		84B36E6A221F125F00D1F297 /* physfs_platforms.h in Headers */ = {isa = PBXBuildFile; fileRef = 84B36E4D221F125F00D1F297 /* physfs_platforms.h */; };
 		84B36E6D221F127000D1F297 /* physfsrwops.h in Headers */ = {isa = PBXBuildFile; fileRef = 84B36E6B221F127000D1F297 /* physfsrwops.h */; };
 		84B36E6E221F127000D1F297 /* physfsrwops.c in Sources */ = {isa = PBXBuildFile; fileRef = 84B36E6C221F127000D1F297 /* physfsrwops.c */; };
+		84B36E7D221F170A00D1F297 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B36E7C221F170A00D1F297 /* SDL2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		84B36E4D221F125F00D1F297 /* physfs_platforms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = physfs_platforms.h; path = src/physfs_platforms.h; sourceTree = "<group>"; };
 		84B36E6B221F127000D1F297 /* physfsrwops.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = physfsrwops.h; path = extras/physfsrwops.h; sourceTree = "<group>"; };
 		84B36E6C221F127000D1F297 /* physfsrwops.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = physfsrwops.c; path = extras/physfsrwops.c; sourceTree = "<group>"; };
+		84B36E7C221F170A00D1F297 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B36E7D221F170A00D1F297 /* SDL2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +124,7 @@
 				84B36E39221F125E00D1F297 /* physfs.c */,
 				84B36E3E221F125E00D1F297 /* physfs.h */,
 				84B36E1F221F122F00D1F297 /* Products */,
+				84B36E7B221F170A00D1F297 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +134,14 @@
 				84B36E1E221F122F00D1F297 /* libphysfs.dylib */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		84B36E7B221F170A00D1F297 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84B36E7C221F170A00D1F297 /* SDL2.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,6 +366,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -367,6 +383,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
